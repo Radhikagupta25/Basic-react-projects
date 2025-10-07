@@ -1,0 +1,53 @@
+1️⃣ Counter / Color Toggle App (Very Beginner)
+Difficulty: ★☆☆☆☆
+Goal: Get comfortable with useState, events, and basic JSX
+Features:
+Increment / decrement counter
+Change background color or text color on button click
+Concepts Learned:
+useState, basic component structure, event handling
+
+2️⃣ Todo List App (Beginner)
+Difficulty: ★★☆☆☆
+Goal: Combine state, props, and local storage
+Features:
+Add / delete / mark tasks as done
+Persist tasks in localStorage
+Concepts Learned:
+Props, useState, useEffect for side effects, conditional rendering
+
+3️⃣ Weather App / API Fetching (Intermediate)
+Difficulty: ★★★☆☆
+Goal: Learn fetching data from APIs and handling async logic
+Features:
+Input city name → display weather
+Show loading state and error handling
+Concepts Learned:
+useEffect, fetch or axios, conditional rendering, async handling
+
+4️⃣ Multi-Page Blog / Portfolio with Routing (Intermediate-Advanced)
+Difficulty: ★★★★☆
+Goal: Learn React Router and structuring larger projects
+Features:
+Home, About, Projects pages
+Navigation between pages using react-router-dom
+Reusable components (Card, Navbar, Footer)
+Concepts Learned:
+Routing (useNavigate, useParams)
+Component reusability
+Props drilling and composition
+
+5️⃣ Mini E-Commerce / Dashboard (Advanced / Resume-Ready)
+Difficulty: ★★★★★
+Goal: Combine everything: state management, API, complex components, context/reducer
+Features:
+Product list fetched from API
+Add to cart / remove from cart
+Filter and search products
+Optional: Dark mode using Context API or Theme toggler
+Concepts Learned:
+useReducer or Redux Toolkit basics
+Context API
+API integration
+Dynamic rendering and advanced state management
+Deployable project (GitHub + Vercel)
