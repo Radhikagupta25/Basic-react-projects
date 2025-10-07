@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useState } from 'react'
 
 function App() {
-  const [colour, setColour] = useState('pink')
+  const [colour, setColour] = useState(() => {
+    return localStorage.getItem('colour') || 'pink';
+  });
+
+  useEffect(()=>{
+    localStorage.setItem('colour', colour);
+  },[colour]);
 
   return (
     <>
